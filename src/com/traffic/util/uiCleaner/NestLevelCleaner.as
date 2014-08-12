@@ -11,8 +11,7 @@ package com.traffic.util.uiCleaner {
 	 * Please remove this class once that's fixed.
 	 * 
 	 * ASSUMPTION: this class assumes that the objects we're dealing with here
-	 * are not on stage anymore. Currently that's a valid assumption, but 
-	 * keep in mind in case we change the way we clean display components.
+	 * are not on stage anymore.
 	 */
 	public class NestLevelCleaner implements IDisplayObjectCleaner
 	{
