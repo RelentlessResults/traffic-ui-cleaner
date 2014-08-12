@@ -1,4 +1,4 @@
-package com.sohnar.traffic.util.cleaning
+package com.sohnar.traffic.util
 {
 	import com.adobe.cairngorm.contract.Contract;
 	
@@ -40,7 +40,7 @@ package com.sohnar.traffic.util.cleaning
 			}
 			catch( e : Error )
 			{
-				Log.getLogger("com.sohnar.traffic.util.cleaning.StatesCleaner").warn( "Error in cleanStates: " + e.message );
+				Log.getLogger("com.sohnar.traffic.util.StatesCleaner").warn( "Error in cleanStates: " + e.message );
 			}
 		}
 	}

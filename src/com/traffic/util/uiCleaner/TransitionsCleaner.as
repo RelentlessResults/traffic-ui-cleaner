@@ -1,4 +1,4 @@
-package com.sohnar.traffic.util.cleaning {
+package com.sohnar.traffic.util {
 	
 	import com.adobe.cairngorm.contract.Contract;
 	

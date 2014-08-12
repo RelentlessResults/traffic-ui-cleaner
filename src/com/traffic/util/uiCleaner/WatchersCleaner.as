@@ -1,4 +1,4 @@
-package com.sohnar.traffic.util.cleaning
+package com.sohnar.traffic.util
 {
 	import mx.binding.Binding;
 	import mx.binding.FunctionReturnWatcher;
@@ -45,7 +45,7 @@ package com.sohnar.traffic.util.cleaning
 			}
 			catch( e : Error )
 			{
-				Log.getLogger("com.sohnar.traffic.util.cleaning.WatchersCleaner").debug( "Error in cleanWatchers: " + e.message );
+				Log.getLogger("com.sohnar.traffic.util.WatchersCleaner").debug( "Error in cleanWatchers: " + e.message );
 			}
 		}
 		

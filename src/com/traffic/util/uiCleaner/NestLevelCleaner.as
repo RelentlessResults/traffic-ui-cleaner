@@ -1,4 +1,4 @@
-package com.sohnar.traffic.util.cleaning {
+package com.sohnar.traffic.util {
 	
 	import mx.core.Container;
 	import mx.core.IUITextField;

@@ -1,4 +1,5 @@
-package com.sohnar.traffic.util.cleaning {
+package com.sohnar.traffic.util {
+    import com.sohnar.traffic.util.cleaning.*;
 	
 	import mx.core.FlexSprite;
 

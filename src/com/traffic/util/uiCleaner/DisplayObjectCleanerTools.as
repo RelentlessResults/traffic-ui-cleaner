@@ -1,5 +1,6 @@
-package com.sohnar.traffic.util.cleaning
+package com.sohnar.traffic.util
 {
+    import com.sohnar.traffic.util.cleaning.*;
 	/*************************************************************************
 	 *
 	 * http://code.google.com/p/flex-uicomponent-cleaner-and-gc-initiator/

@@ -1,5 +1,6 @@
-package com.sohnar.traffic.util.cleaning
+package com.sohnar.traffic.util
 {
+    import com.sohnar.traffic.util.cleaning.*;
 	import mx.binding.Binding;
 	import mx.core.mx_internal;
 

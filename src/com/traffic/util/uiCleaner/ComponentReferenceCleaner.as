@@ -1,5 +1,6 @@
-package com.sohnar.traffic.util.cleaning
+package com.sohnar.traffic.util
 {
+    import com.sohnar.traffic.util.cleaning.*;
 	import mx.core.IFlexDisplayObject;
 	import mx.logging.Log;
 	
@@ -21,7 +22,7 @@ package com.sohnar.traffic.util.cleaning
 				try {component.deleteReferenceOnParentDocument(IFlexDisplayObject(component.parentDocument));}
 				catch(e:Error)
 				{
-					Log.getLogger("com.sohnar.traffic.util.cleaning.ComponentReferenceCleaner").warn("Error in cleanComponentReferences, UIComponent::deleteReferenceOnParentDocument() failed: " + e.message);
+					Log.getLogger("com.sohnar.traffic.util.ComponentReferenceCleaner").warn("Error in cleanComponentReferences, UIComponent::deleteReferenceOnParentDocument() failed: " + e.message);
 				}
 			}
 			

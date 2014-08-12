@@ -1,4 +1,4 @@
-package com.sohnar.traffic.util.cleaning
+package com.sohnar.traffic.util
 {
 	import com.sohnar.traffic.util.DisplayListUtil;
 	
@@ -36,7 +36,7 @@ package com.sohnar.traffic.util.cleaning
 			try {_functionToApply(component);}
 			catch (e:Error)
 			{
-				Log.getLogger("com.sohnar.traffic.util.cleaning.DisplayListTraverser").warn("Error cleaning: "+e.message);
+				Log.getLogger("com.sohnar.traffic.util.DisplayListTraverser").warn("Error cleaning: "+e.message);
 			}
 		}
 	}

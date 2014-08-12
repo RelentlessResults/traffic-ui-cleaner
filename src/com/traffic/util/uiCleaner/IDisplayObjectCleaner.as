@@ -1,4 +1,4 @@
-package com.sohnar.traffic.util.cleaning {
+package com.sohnar.traffic.util {
 	internal interface IDisplayObjectCleaner {
 		
 		function canCleanDisplayObject(object:Object):Boolean;
