@@ -1,6 +1,4 @@
-package com.sohnar.traffic.util {
-    import com.sohnar.traffic.util.cleaning.*;
-	
+package com.traffic.util.uiCleaner {
 	import mx.core.FlexSprite;
 
 	public class EventHandlerCleaner implements IDisplayObjectCleaner {

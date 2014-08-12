@@ -1,6 +1,5 @@
-package com.sohnar.traffic.util
+package com.traffic.util.uiCleaner
 {
-    import com.sohnar.traffic.util.cleaning.*;
 	/*************************************************************************
 	 *
 	 * http://code.google.com/p/flex-uicomponent-cleaner-and-gc-initiator/
@@ -98,8 +97,6 @@ package com.sohnar.traffic.util
 	 * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 	 * 
 	 *************************************************************************/
-	
-	import com.sohnar.traffic.util.DisplayListUtil;
 	
 	import mx.core.IUIComponent;
 	import mx.managers.ISystemManager;

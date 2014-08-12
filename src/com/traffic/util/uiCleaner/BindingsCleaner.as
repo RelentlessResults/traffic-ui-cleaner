@@ -1,7 +1,8 @@
-package com.sohnar.traffic.util
+package com.traffic.util.uiCleaner
 {
-    import com.sohnar.traffic.util.cleaning.*;
-	import mx.binding.Binding;
+    import com.traffic.util.uiCleaner.BindingOperations;
+
+    import mx.binding.Binding;
 	import mx.core.mx_internal;
 
 	use namespace mx_internal;

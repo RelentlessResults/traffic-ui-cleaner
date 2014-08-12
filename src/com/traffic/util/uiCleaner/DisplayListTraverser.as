@@ -1,8 +1,8 @@
-package com.sohnar.traffic.util
+package com.traffic.util.uiCleaner
 {
-	import com.sohnar.traffic.util.DisplayListUtil;
-	
-	import mx.logging.Log;
+    import com.traffic.util.uiCleaner.DisplayListUtil;
+
+    import mx.logging.Log;
 	
 	internal class DisplayListTraverser
 	{

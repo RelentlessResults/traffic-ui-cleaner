@@ -1,6 +1,5 @@
-package com.sohnar.traffic.util
+package com.traffic.util.uiCleaner
 {
-    import com.sohnar.traffic.util.cleaning.*;
 	import mx.core.IFlexDisplayObject;
 	import mx.logging.Log;
 	

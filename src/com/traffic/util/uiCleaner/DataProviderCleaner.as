@@ -1,6 +1,4 @@
-package com.sohnar.traffic.util {
-    import com.sohnar.traffic.util.cleaning.*;
-	
+package com.traffic.util.uiCleaner {
 	import com.adobe.cairngorm.contract.Contract;
 
 	public class DataProviderCleaner implements IDisplayObjectCleaner {

@@ -1,4 +1,4 @@
-package com.sohnar.traffic.util
+package com.traffic.util.uiCleaner
 {
 	import mx.core.UIComponent;
 	import mx.core.mx_internal;

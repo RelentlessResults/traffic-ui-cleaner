@@ -1,4 +1,5 @@
-package com.sohnar.traffic.util {
+package com.traffic.util.uiCleaner
+{
 	
 	import flash.display.DisplayObject;
 	import flash.display.DisplayObjectContainer;
