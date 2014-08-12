@@ -29,11 +29,11 @@ package com.sohnar.traffic.util.cleaning
 					
 					while ( state.overrides && state.overrides.length > 0 )
 					{
-						var override : Object = state.overrides.pop();
+						var stateOverride: Object = state.overrides.pop();
 						
-						if ( override.hasOwnProperty( "target" ) )
+						if ( stateOverride.hasOwnProperty( "target" ) )
 						{
-							override.target = null;
+                            stateOverride.target = null;
 						}
 					}
 				}
