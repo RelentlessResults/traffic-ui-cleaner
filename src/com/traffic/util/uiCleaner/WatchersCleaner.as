@@ -34,6 +34,9 @@ package com.traffic.util.uiCleaner
 				// the base Watcher class.  Any error resulting from an incomplete
 				// modification of the framework source will be caught by our
 				// try/catch block.
+                if(!component.hasOwnProperty("_watchers"))
+                    return;
+
 				var watcher : Watcher = component._watchers[0];
 				if ( !watcher || !watcher.hasOwnProperty( "listeners" ) )
 					return;
@@ -45,7 +48,7 @@ package com.traffic.util.uiCleaner
 			}
 			catch( e : Error )
 			{
-				Log.getLogger("com.sohnar.traffic.util.WatchersCleaner").debug( "Error in cleanWatchers: " + e.message );
+				Log.getLogger("com.sohnar.traffic.util.WatchersCleaner").debug( "Error in WatchersCleaner: " + e.message );
 			}
 		}
 		
